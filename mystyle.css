@@ -1,0 +1,100 @@
+*{
+   margin:0;
+   padding:0;
+   font-family: 'Courier New', Courier, monospace;
+   box-sizing: border-box;
+}
+.main{
+   background:url(https://cdn.britannica.com/48/252748-050-C514EFDB/Virat-Kohli-India-celebrates-50th-century-Cricket-November-15-2023.jpg);
+   width:100vw;
+   height:100vh;
+   object-fit:cover;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+.login{
+   width:400px;
+   height:400px;
+   border:2px solid;
+   background-color: rgb(0, 0, 0,0.6);
+   /* opacity:0.3; */
+   border-radius:0px 20px 10px;
+   box-shadow: 3px -1px 20px black;
+}
+.container{
+   /* padding: 10px; */
+   padding:40px 0;
+   text-align: center;
+   color:white;
+   font-weight:700;
+}
+#msg{
+   position: relative;
+   left:-30px;
+}
+#email{
+   margin-top:30px;
+   width:80%;
+   line-height:36px;
+   /* left:-70px; */
+   color: white;
+   border:none;
+   border-bottom:2px solid rgb(128, 128, 128,0.6);
+   background:none;
+}
+#password{
+   margin-top: 30px;
+   width:80%;
+   display:inline-block;
+   line-height:36px;
+   color: white;
+   border:none;
+   border-bottom:2px solid rgb(128, 128, 128,0.6);
+   background:none;
+}
+textarea:focus, input:focus{
+   outline: none;
+}
+.passwordTool{
+   margin-top:30px;
+   display: flex;
+   justify-content:space-around;
+}
+.passwordTool a{
+   text-decoration:none;
+   color: rgb(0, 255, 234);
+}
+#lock{
+   position: relative;
+   left:-30px;
+}
+.passwordTool a{
+   position: relative;
+   left:-25px;
+}
+#user{
+   margin-top:30px;
+   width:80%;
+   height:40px;
+   border-radius:7px;
+   border:none;
+   font-size: large;
+   font-weight:700;
+   display: block;
+   position: relative;
+   left:30px;
+}
+span{
+   display: block;
+   margin-top:30px;
+   position: relative;
+   left:-10px;
+}
+span a{
+   text-decoration:none;
+   color: rgb(0, 255, 234);
+}
+@media screen {
+   
+}
